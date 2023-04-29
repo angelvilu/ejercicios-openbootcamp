@@ -1,0 +1,51 @@
+        // 1
+        int numeroIf = -1;
+
+        if(numeroIf>0){
+            System.out.println("Es positivo");
+        }else if(numeroIf<0) {
+            System.out.println("Es negativo");
+        }else{
+            System.out.println("Es 0");
+        };
+
+        // 2
+        int numeroWhile = 0;
+
+        while(numeroWhile<3){
+            numeroWhile++;
+            System.out.println(numeroWhile);
+        }
+
+        //3
+        do{
+            numeroWhile++;
+            System.out.println(numeroWhile);
+        }while(numeroWhile<3);
+
+        //4
+        int numeroFor;
+
+        for (numeroFor = 0;numeroFor<=3;numeroFor++){
+            System.out.println(numeroFor);
+        }
+
+        //5
+        String estacion = "Verano";
+
+        switch (estacion) {
+            case "Invierno":
+                System.out.println("Es " + estacion);
+                break;
+            case "Primavera":
+                System.out.println("Es " + estacion);
+                break;
+            case "Verano":
+                System.out.println("Es " + estacion);
+                break;
+            case "Otoño":
+                System.out.println("Es " + estacion);
+                break;
+            default:
+                System.out.println("No es una estación.");
+        }
